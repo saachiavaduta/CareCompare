@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patient details · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="18-slot-picker.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Patient details</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <div class="card card--tinted">
+        <div class="inline-row">
+          <span class="i i--sm i-calendar" aria-hidden="true"></span>
+          <span class="small-text">Fri 16 Oct · 10:30 AM · Dr. Anaya Rao</span>
+        </div>
+      </div>
+
+      <section class="section">
+        <h2 class="section__title">Who is this visit for?</h2>
+        <div class="radio-list" role="radiogroup" aria-label="Patient">
+          <div class="radio radio--selected" role="radio" aria-checked="true">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="avatar avatar--sm" aria-hidden="true">AM</span>
+            <div class="radio__body">
+              <span class="radio__label">Aarav Mehta</span>
+              <span class="radio__sub">You, 29</span>
+            </div>
+          </div>
+          <div class="radio" role="radio" aria-checked="false">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="avatar avatar--sm" aria-hidden="true">HM</span>
+            <div class="radio__body">
+              <span class="radio__label">Hema Mehta</span>
+              <span class="radio__sub">Mother, 56</span>
+            </div>
+          </div>
+          <div class="radio" role="radio" aria-checked="false">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="avatar avatar--sm" aria-hidden="true">KM</span>
+            <div class="radio__body">
+              <span class="radio__label">Kiaan Mehta</span>
+              <span class="radio__sub">Son, 6</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--list">
+          <div class="list-row">
+            <span class="icon-circle"><span class="i i-plus" aria-hidden="true"></span></span>
+            <span class="list-row__body">
+              <span class="list-row__label">Add someone</span>
+              <span class="list-row__sub">Add a family member</span>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">What is the problem?</h2>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip chip--active"><span class="chip__face">Chest pain</span></span>
+          <span class="chip chip--active"><span class="chip__face">Breathlessness</span></span>
+          <span class="chip"><span class="chip__face">Check-up</span></span>
+          <span class="chip"><span class="chip__face">Other</span></span>
+        </div>
+      </section>
+
+      <div class="field">
+        <label class="field__label" for="patient-notes">Anything the doctor should know?</label>
+        <textarea id="patient-notes" class="textarea" rows="4">Pain on and off for 2 days, worse when climbing stairs.</textarea>
+      </div>
+
+      <section class="section">
+        <h2 class="section__title">Reports (optional)</h2>
+        <div class="upload-box">
+          <span class="icon-circle"><span class="i i-upload" aria-hidden="true"></span></span>
+          <span class="title-text">Add reports or photos</span>
+          <span class="caption-text muted-text">PDF or JPG, up to 10 MB</span>
+        </div>
+        <div class="card">
+          <div class="inline-row">
+            <span class="icon-circle icon-circle--sm"><span class="i i--sm i-file" aria-hidden="true"></span></span>
+            <div class="stack-text file-row__body">
+              <span class="body-text">ECG-report-Sep.pdf</span>
+              <span class="caption-text muted-text">1.2 MB</span>
+            </div>
+            <span class="i i--sm i-close" aria-hidden="true"></span>
+          </div>
+        </div>
+        <span class="check check--checked">
+          <span class="check__box"><span class="i i-check" aria-hidden="true"></span></span>
+          <span class="check__label">Share my past reports with the doctor</span>
+        </span>
+      </section>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="20-payment.html">Continue</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

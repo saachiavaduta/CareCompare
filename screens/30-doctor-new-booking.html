@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New booking request · CareCompare for Doctors</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--nav-sticky-double">
+      <div class="doc-top">
+        <div class="doc-top__brand">
+          <span class="logo logo--sm logo--inline logo--dark">
+            <span class="logo__mark"><span class="logo__icon i i-heart-pulse" aria-hidden="true"></span></span>
+            <span class="logo__name">CareCompare</span>
+          </span>
+          <span class="caption-text muted-text">for Doctors</span>
+        </div>
+        <span class="badge badge--ok">Dr. Rao · Online</span>
+      </div>
+
+      <div class="stack-text">
+        <h1 class="heading-title">New booking request</h1>
+        <span class="caption-text muted-text">Sent 2 min ago</span>
+      </div>
+
+      <div class="card card--flush">
+        <div class="card__body inline-row">
+          <span class="avatar avatar--md" aria-hidden="true">AM</span>
+          <span class="title-text">Aarav Mehta, 29</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-calendar" aria-hidden="true"></span>
+          <span class="value-row__label">Fri 16 Oct, 10:30 AM</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-pin" aria-hidden="true"></span>
+          <span class="value-row__label">In clinic</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-heart-pulse" aria-hidden="true"></span>
+          <span class="value-row__label">Chest pain and breathlessness, 2–3 days</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-copy" aria-hidden="true"></span>
+          <span class="value-row__label">Chose you from 3 doctors</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-file" aria-hidden="true"></span>
+          <span class="value-row__label">2 reports shared</span>
+          <span class="i i--sm i-chevron-right value-row__chevron" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="card card--flush">
+        <div class="card__body stack-text">
+          <span class="title-text">Patient notes</span>
+          <span class="small-text">Pain on and off for 2 days, worse when climbing stairs.</span>
+        </div>
+      </div>
+
+      <div class="card card--flush">
+        <div class="card__body stack-text">
+          <span class="title-text">Please prepare</span>
+          <span class="check check--checked">
+            <span class="check__box"><span class="i i-check" aria-hidden="true"></span></span>
+            <span class="check__label">ECG machine ready</span>
+          </span>
+          <span class="check">
+            <span class="check__box"></span>
+            <span class="check__label">Free exam room</span>
+          </span>
+          <span class="check">
+            <span class="check__box"></span>
+            <span class="check__label">Ask about allergies on arrival</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="card card--flush">
+        <div class="card__body">
+          <span class="title-text">Fee</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">₹800 · Pay at clinic</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="sticky sticky--stack">
+      <a class="btn btn--primary" href="24-appointment-tracker.html">Accept booking</a>
+      <span class="sticky__secondary">Suggest another time</span>
+    </div>
+
+    <nav class="nav" aria-label="Doctor">
+      <div class="nav__items">
+        <span class="nav__item nav__item--active" aria-current="page">
+          <span class="nav__pill"><span class="i i-file" aria-hidden="true"></span></span>Requests
+        </span>
+        <span class="nav__item">
+          <span class="nav__pill"><span class="i i-calendar" aria-hidden="true"></span></span>Schedule
+        </span>
+        <span class="nav__item">
+          <span class="nav__pill"><span class="i i-users" aria-hidden="true"></span></span>Patients
+        </span>
+        <span class="nav__item">
+          <span class="nav__pill"><span class="i i-user" aria-hidden="true"></span></span>Profile
+        </span>
+      </div>
+    </nav>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

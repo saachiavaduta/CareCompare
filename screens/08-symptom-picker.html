@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Check symptoms · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="05-home.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Check symptoms</h1>
+        <span aria-hidden="true"></span>
+      </header>
+
+      <div class="stack-text">
+        <h2 class="heading-title">What are you feeling?</h2>
+        <p class="body-text muted-text">Pick everything that applies.</p>
+      </div>
+
+      <section class="section">
+        <h3 class="section__title">Body</h3>
+        <div class="chip-row chip-row--wrap">
+          <button class="chip chip--active" type="button" aria-pressed="true"><span class="chip__face">Chest pain</span></button>
+          <button class="chip chip--active" type="button" aria-pressed="true"><span class="chip__face">Shortness of breath</span></button>
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Headache</span></button>
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Back pain</span></button>
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Fever</span></button>
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Dizziness</span></button>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3 class="section__title">Skin</h3>
+        <div class="chip-row chip-row--wrap">
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Rash</span></button>
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Itching</span></button>
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Swelling</span></button>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3 class="section__title">For how long?</h3>
+        <div class="chip-row chip-row--wrap">
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">Today</span></button>
+          <button class="chip chip--active" type="button" aria-pressed="true"><span class="chip__face">2–3 days</span></button>
+          <button class="chip" type="button" aria-pressed="false"><span class="chip__face">A week or more</span></button>
+        </div>
+      </section>
+
+      <div class="card card--tinted">
+        <div class="inline-row">
+          <span class="icon-circle icon-circle--md icon-circle--forest">
+            <span class="i i-heart-pulse" aria-hidden="true"></span>
+          </span>
+          <div class="stack-text">
+            <span class="caption-text muted-text">We suggest</span>
+            <span class="title-text">Cardiologist (heart doctor)</span>
+            <span class="small-text">Chest pain with breathlessness is best checked by a heart doctor.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card inline-row">
+        <span class="i i-info" aria-hidden="true"></span>
+        <p class="small-text muted-text">This is a guide, not a diagnosis. In an emergency, call your local emergency number.</p>
+      </div>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="10-results.html">Show cardiologists</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

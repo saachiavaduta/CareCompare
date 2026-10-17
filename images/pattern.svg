@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="plus-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M24 18v12M18 24h12" stroke="#C49A45" stroke-width="2" stroke-linecap="round" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="390" height="844" fill="url(#plus-grid)"/>
+  <g fill="none" stroke="#C49A45" stroke-width="1.5" opacity="0.12">
+    <circle cx="390" cy="0" r="90"/>
+    <circle cx="390" cy="0" r="170"/>
+    <circle cx="390" cy="0" r="250"/>
+    <circle cx="390" cy="0" r="330"/>
+    <circle cx="0" cy="844" r="110"/>
+    <circle cx="0" cy="844" r="200"/>
+    <circle cx="0" cy="844" r="290"/>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Check in · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="24-appointment-tracker.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Check in</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <h2 class="section__title">Show this at the front desk</h2>
+
+      <div class="card qr-card">
+        <div class="qr-code" role="img" aria-label="Check-in QR code for booking CC-1024"></div>
+        <span class="caption-text muted-text">CC-1024</span>
+      </div>
+
+      <div class="card card--flush">
+        <div class="value-row">
+          <span class="i i--sm i-file" aria-hidden="true"></span>
+          <span class="value-row__label">Token</span>
+          <span class="value-row__value">A-14</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-clock" aria-hidden="true"></span>
+          <span class="value-row__label">Estimated wait</span>
+          <span class="value-row__value">10 min</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-pin" aria-hidden="true"></span>
+          <span class="value-row__label">Counter</span>
+          <span class="value-row__value">Reception, ground floor</span>
+        </div>
+      </div>
+
+      <div class="card card--stack">
+        <span class="title-text">While you wait</span>
+        <div class="check-row">
+          <span class="i i--sm i-check" aria-hidden="true"></span>Keep your reports ready
+        </div>
+        <div class="check-row">
+          <span class="i i--sm i-check" aria-hidden="true"></span>Tell the nurse about your symptoms
+        </div>
+      </div>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="26-visit-summary.html">I am at the clinic</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

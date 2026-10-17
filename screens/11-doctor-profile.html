@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. Anaya Rao · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar statusbar--light" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--top-flush content--sticky-double">
+      <div class="bleed profile-hero">
+        <span class="photo photo--hero">
+          <span class="photo__initials" aria-hidden="true">AR</span>
+          <img class="photo__image" src="../images/doctors/rao.jpg" alt="Dr. Anaya Rao">
+        </span>
+
+        <header class="header header--floating">
+          <a class="round-button" href="10-results.html" aria-label="Back">
+            <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+          </a>
+          <span class="header__title"></span>
+          <span class="round-button" aria-hidden="true">
+            <span class="round-button__face"><span class="i i-heart-outline" aria-hidden="true"></span></span>
+          </span>
+        </header>
+
+        <div class="card profile-name">
+          <h1 class="heading-title">Dr. Anaya Rao</h1>
+          <p class="body-text muted-text">Cardiologist · 14 years</p>
+          <p class="small-text muted-text">MBBS, MD, DM (Cardiology)</p>
+          <div class="profile-meta">
+            <a class="doctor-card__rating profile-rating" href="12-doctor-reviews.html">
+              <span class="i i--sm i-star" aria-hidden="true"></span>
+              <span class="doctor-card__rating-value">4.7</span>
+              312 verified reviews
+            </a>
+            <span class="badge badge--best">Best rated</span>
+          </div>
+        </div>
+      </div>
+
+      <nav class="tabs" aria-label="Doctor sections">
+        <a class="tabs__link tabs__link--active" href="11-doctor-profile.html" aria-current="page">Overview</a>
+        <a class="tabs__link" href="12-doctor-reviews.html">Reviews</a>
+        <a class="tabs__link" href="13-clinic-details.html">Clinic</a>
+      </nav>
+
+      <div class="stat-grid">
+        <div class="card stat">
+          <span class="stat__value">₹800</span>
+          <span class="stat__label">Consultation</span>
+        </div>
+        <div class="card stat">
+          <span class="stat__value">10 min</span>
+          <span class="stat__label">Avg wait</span>
+        </div>
+        <div class="card stat">
+          <span class="stat__value">1.2 km</span>
+          <span class="stat__label">Distance</span>
+        </div>
+      </div>
+
+      <div class="card card--list">
+        <div class="card__body">
+          <span class="title-text">Fees</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-pin" aria-hidden="true"></span>
+          <span class="value-row__label">In clinic</span>
+          <span class="value-row__value">₹800</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-video" aria-hidden="true"></span>
+          <span class="value-row__label">Video</span>
+          <span class="value-row__value">₹600</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">Follow-up</span>
+          <span class="value-row__value">Free within 15 days</span>
+        </div>
+      </div>
+
+      <section class="section">
+        <h2 class="section__title">About</h2>
+        <p class="body-text">Dr. Rao treats heart and blood pressure problems and has 14 years of experience. She explains each step in simple words.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Treats</h2>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip chip--sand"><span class="chip__face">Chest pain</span></span>
+          <span class="chip chip--sand"><span class="chip__face">High blood pressure</span></span>
+          <span class="chip chip--sand"><span class="chip__face">Heart rhythm</span></span>
+          <span class="chip chip--sand"><span class="chip__face">Breathlessness</span></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Languages</h2>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip"><span class="chip__face"><span class="i i--sm i-globe" aria-hidden="true"></span>Gujarati</span></span>
+          <span class="chip"><span class="chip__face"><span class="i i--sm i-globe" aria-hidden="true"></span>Hindi</span></span>
+          <span class="chip"><span class="chip__face"><span class="i i--sm i-globe" aria-hidden="true"></span>English</span></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Experience</h2>
+        <div class="card card--stack">
+          <div class="check-row">
+            <span class="i i--sm i-check" aria-hidden="true"></span>14 years in cardiology
+          </div>
+          <div class="check-row">
+            <span class="i i--sm i-check" aria-hidden="true"></span>Sunrise Heart Clinic since 2018
+          </div>
+          <div class="check-row">
+            <span class="i i--sm i-check" aria-hidden="true"></span>Former senior resident, City Heart Centre
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Next free slots</h2>
+        <div class="slot-list">
+          <a class="slot" href="18-slot-picker.html">
+            <span class="slot__time">Today 4:30 PM</span>
+            <span class="slot__wait">~15 min</span>
+          </a>
+          <a class="slot" href="18-slot-picker.html">
+            <span class="slot__time">Tomorrow 10:30 AM</span>
+            <span class="slot__wait">~10 min</span>
+          </a>
+          <a class="slot" href="18-slot-picker.html">
+            <span class="slot__time">Tomorrow 11:30 AM</span>
+            <span class="slot__wait">~20 min</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="sticky sticky--floating sticky--stack">
+      <a class="btn btn--primary" href="18-slot-picker.html">Book appointment</a>
+      <a class="sticky__secondary" href="14-compare-select.html">Add to compare</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

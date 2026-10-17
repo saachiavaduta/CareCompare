@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="19-patient-details.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Payment</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <h2 class="heading-title">How would you like to pay?</h2>
+
+      <div class="radio-list" role="radiogroup" aria-label="Payment method">
+        <div class="radio radio--selected" role="radio" aria-checked="true">
+          <span class="radio__dot" aria-hidden="true"></span>
+          <span class="i i--sm i-pin" aria-hidden="true"></span>
+          <div class="radio__body">
+            <span class="radio__label">Pay at clinic</span>
+            <span class="radio__sub">₹800 on the day</span>
+          </div>
+        </div>
+        <div class="radio" role="radio" aria-checked="false">
+          <span class="radio__dot" aria-hidden="true"></span>
+          <span class="i i--sm i-upi" aria-hidden="true"></span>
+          <div class="radio__body">
+            <span class="radio__label">UPI</span>
+            <span class="radio__sub">Pay now · ₹20 convenience fee</span>
+          </div>
+        </div>
+        <div class="radio" role="radio" aria-checked="false">
+          <span class="radio__dot" aria-hidden="true"></span>
+          <span class="i i--sm i-card" aria-hidden="true"></span>
+          <div class="radio__body">
+            <span class="radio__label">Card</span>
+            <span class="radio__sub">Pay now · ₹20 convenience fee</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="inline-row">
+          <span class="i i--sm i-info" aria-hidden="true"></span>
+          <span class="small-text">Demo only. No real payment is taken.</span>
+        </div>
+      </div>
+
+      <div class="promo-row">
+        <div class="field">
+          <label class="field__label" for="promo-code">Promo code</label>
+          <div class="field__control">
+            <span class="field__icon i i--sm i-wallet" aria-hidden="true"></span>
+            <input id="promo-code" class="input input--icon" type="text" placeholder="Enter code">
+          </div>
+        </div>
+        <span class="promo-row__apply">Apply</span>
+      </div>
+
+      <div class="card card--stack">
+        <div class="value-row">
+          <span class="value-row__label">Consultation (In clinic)</span>
+          <span class="value-row__value">₹800</span>
+        </div>
+        <div class="value-row">
+          <span class="value-row__label">Booking fee</span>
+          <span class="value-row__value">₹0</span>
+        </div>
+        <div class="card__divider"></div>
+        <div class="value-row value-row--total">
+          <span class="value-row__label">Total</span>
+          <span class="value-row__value">₹800</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="21-booking-review.html">Review booking</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

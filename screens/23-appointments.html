@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visits · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--nav">
+      <h1 class="heading-title">Your visits</h1>
+
+      <section class="section">
+        <h2 class="section__title">Upcoming</h2>
+        <a class="card visit-card" href="24-appointment-tracker.html">
+          <div class="visit-card__top">
+            <div class="date-block">
+              <span class="date-block__day">FRI</span>
+              <span class="date-block__num">16</span>
+              <span class="date-block__month">OCT</span>
+            </div>
+            <span class="photo photo--md">
+              <span class="photo__initials" aria-hidden="true">AR</span>
+              <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+            </span>
+            <div class="visit-card__body">
+              <span class="title-text">Dr. Anaya Rao</span>
+              <span class="caption-text muted-text">Cardiologist · In clinic</span>
+            </div>
+            <span class="i i--sm i-chevron-right visit-card__chevron" aria-hidden="true"></span>
+          </div>
+          <div class="visit-card__foot">
+            <span class="visit-card__place small-text"><span class="i i--sm i-pin" aria-hidden="true"></span>Sunrise Heart Clinic</span>
+            <span class="badge badge--ok">Confirmed</span>
+          </div>
+        </a>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Past visits</h2>
+        <a class="card visit-card" href="26-visit-summary.html">
+          <div class="visit-card__top">
+            <span class="photo photo--md">
+              <span class="photo__initials" aria-hidden="true">MI</span>
+              <img class="photo__image" src="../images/doctors/iyer.jpg" alt="">
+            </span>
+            <div class="visit-card__body">
+              <span class="title-text">Dr. Mira Iyer</span>
+              <span class="caption-text muted-text">Cardiologist · 2 Sep 2026</span>
+            </div>
+          </div>
+          <div class="visit-card__foot">
+            <span class="title-text">₹600</span>
+            <span class="badge badge--ok">Completed</span>
+          </div>
+        </a>
+
+        <a class="card visit-card" href="26-visit-summary.html">
+          <div class="visit-card__top">
+            <span class="photo photo--md">
+              <span class="photo__initials" aria-hidden="true">MS</span>
+              <img class="photo__image" src="../images/doctors/shah.jpg" alt="">
+            </span>
+            <div class="visit-card__body">
+              <span class="title-text">Dr. Meera Shah</span>
+              <span class="caption-text muted-text">Cardiologist · 12 Jul 2026</span>
+            </div>
+          </div>
+          <div class="visit-card__foot">
+            <span class="title-text">₹1200</span>
+            <span class="badge badge--ok">Completed</span>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <nav class="nav" aria-label="Main">
+      <div class="nav__items">
+        <a class="nav__item" href="05-home.html">
+          <span class="nav__pill"><span class="i i-home" aria-hidden="true"></span></span>Home
+        </a>
+        <a class="nav__item" href="06-search.html">
+          <span class="nav__pill"><span class="i i-search" aria-hidden="true"></span></span>Search
+        </a>
+        <span class="nav__item nav__item--active" aria-current="page">
+          <span class="nav__pill"><span class="i i-calendar" aria-hidden="true"></span></span>Visits
+        </span>
+        <span class="nav__item">
+          <span class="nav__pill"><span class="i i-user" aria-hidden="true"></span></span>Profile
+        </span>
+      </div>
+    </nav>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

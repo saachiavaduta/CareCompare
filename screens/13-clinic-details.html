@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clinic · Dr. Anaya Rao · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar statusbar--light" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--top-flush content--sticky">
+      <div class="bleed profile-hero">
+        <span class="photo photo--hero">
+          <span class="photo__initials" aria-hidden="true">AR</span>
+          <img class="photo__image" src="../images/doctors/rao.jpg" alt="Dr. Anaya Rao">
+        </span>
+
+        <header class="header header--floating">
+          <a class="round-button" href="10-results.html" aria-label="Back">
+            <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+          </a>
+          <span class="header__title"></span>
+          <span class="round-button" aria-hidden="true">
+            <span class="round-button__face"><span class="i i-heart-outline" aria-hidden="true"></span></span>
+          </span>
+        </header>
+
+        <div class="card profile-name">
+          <h1 class="heading-title">Dr. Anaya Rao</h1>
+          <p class="body-text muted-text">Cardiologist · 14 years</p>
+          <p class="small-text muted-text">MBBS, MD, DM (Cardiology)</p>
+          <div class="profile-meta">
+            <a class="doctor-card__rating profile-rating" href="12-doctor-reviews.html">
+              <span class="i i--sm i-star" aria-hidden="true"></span>
+              <span class="doctor-card__rating-value">4.7</span>
+              312 verified reviews
+            </a>
+            <span class="badge badge--best">Best rated</span>
+          </div>
+        </div>
+      </div>
+
+      <nav class="tabs" aria-label="Doctor sections">
+        <a class="tabs__link" href="11-doctor-profile.html">Overview</a>
+        <a class="tabs__link" href="12-doctor-reviews.html">Reviews</a>
+        <a class="tabs__link tabs__link--active" href="13-clinic-details.html" aria-current="page">Clinic</a>
+      </nav>
+
+      <div class="banner banner--clinic">
+        <img class="banner__image" src="../images/clinics/sunrise.jpg" alt="Sunrise Heart Clinic">
+      </div>
+
+      <div class="card card--stack">
+        <span class="title-text">Sunrise Heart Clinic</span>
+        <div class="inline-row">
+          <span class="i i--sm i-pin" aria-hidden="true"></span>
+          <span class="small-text">12 Example Road, Sample Nagar</span>
+        </div>
+        <div class="inline-row">
+          <span class="badge badge--ok">Open now</span>
+        </div>
+        <span class="small-text muted-text">Open today 9 AM–8 PM</span>
+      </div>
+
+      <div class="map-card">
+        <img class="map-card__image" src="../images/map-sunrise.svg" alt="Map showing Sunrise Heart Clinic">
+        <div class="map-card__body">
+          <span class="btn btn--secondary">
+            <span class="i i--sm i-map" aria-hidden="true"></span>Get directions
+          </span>
+        </div>
+      </div>
+
+      <div class="card card--list">
+        <a class="list-row" href="tel:+910000012345">
+          <span class="icon-circle icon-circle--sm">
+            <span class="i i--sm i-phone" aria-hidden="true"></span>
+          </span>
+          <span class="list-row__body">
+            <span class="list-row__label">Call clinic</span>
+            <span class="list-row__sub">+91 00000 12345</span>
+          </span>
+          <span class="i i-chevron-right list-row__chevron" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <section class="section">
+        <h2 class="section__title">Facilities</h2>
+        <div class="facility-grid">
+          <div class="card card--stack">
+            <span class="icon-circle icon-circle--sm"><span class="i i--sm i-parking" aria-hidden="true"></span></span>
+            <span class="body-text">Parking</span>
+          </div>
+          <div class="card card--stack">
+            <span class="icon-circle icon-circle--sm"><span class="i i--sm i-wheelchair" aria-hidden="true"></span></span>
+            <span class="body-text">Wheelchair access</span>
+          </div>
+          <div class="card card--stack">
+            <span class="icon-circle icon-circle--sm"><span class="i i--sm i-ecg" aria-hidden="true"></span></span>
+            <span class="body-text">ECG on site</span>
+          </div>
+          <div class="card card--stack">
+            <span class="icon-circle icon-circle--sm"><span class="i i--sm i-pharmacy" aria-hidden="true"></span></span>
+            <span class="body-text">Pharmacy</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Opening hours</h2>
+        <div class="card card--list">
+          <div class="value-row">
+            <span class="value-row__label">Mon–Sat</span>
+            <span class="value-row__value">9 AM – 8 PM</span>
+          </div>
+          <div class="value-row">
+            <span class="value-row__label">Sunday</span>
+            <span class="value-row__value">10 AM – 2 PM</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="18-slot-picker.html">Book appointment</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

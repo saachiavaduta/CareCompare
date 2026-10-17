@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create account · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky-double">
+      <div class="auth bleed">
+        <div class="banner banner--auth">
+          <img class="banner__image" src="../images/hero/auth-banner.jpg" alt="">
+          <div class="banner__overlay"></div>
+          <header class="header header--floating">
+            <a class="round-button" href="02-welcome.html" aria-label="Back">
+              <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+            </a>
+            <span class="header__title"></span>
+            <span aria-hidden="true"></span>
+          </header>
+          <div class="banner__content banner__content--centre">
+            <div class="logo logo--md logo--stacked logo--light">
+              <span class="logo__mark"><span class="logo__icon i i-heart-pulse" aria-hidden="true"></span></span>
+              <span class="logo__name">CareCompare</span>
+            </div>
+          </div>
+        </div>
+
+        <section class="sheet">
+          <h1 class="visually-hidden">Create account</h1>
+          <div class="sheet__intro">
+            <h2 class="heading-title">Create your account</h2>
+            <p class="body-text muted-text">It takes less than a minute.</p>
+          </div>
+
+          <div class="sheet__fields">
+            <div class="field">
+              <label class="field__label" for="signup-name">Full name</label>
+              <div class="field__control">
+                <span class="field__icon i i-user" aria-hidden="true"></span>
+                <input class="input input--icon" id="signup-name" type="text" value="Aarav Mehta">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="signup-mobile">Mobile number</label>
+              <div class="field__control">
+                <span class="field__icon i i-phone" aria-hidden="true"></span>
+                <input class="input input--icon" id="signup-mobile" type="tel" value="+91 00000 00000">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="signup-email">Email</label>
+              <div class="field__control">
+                <span class="field__icon i i-message" aria-hidden="true"></span>
+                <input class="input input--icon" id="signup-email" type="email" value="aarav@example.com">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="signup-password">Password</label>
+              <div class="field__control">
+                <span class="field__icon i i-lock" aria-hidden="true"></span>
+                <input class="input input--icon input--action" id="signup-password" type="password" value="••••••••">
+                <button class="field__action" type="button" aria-label="Show password">
+                  <span class="i i-eye-open" aria-hidden="true"></span>
+                </button>
+              </div>
+              <p class="field__helper">At least 8 characters</p>
+            </div>
+
+            <span class="check check--checked">
+              <span class="check__box"><span class="i i-check" aria-hidden="true"></span></span>
+              <span class="check__label">I agree to the Terms and Privacy Policy</span>
+            </span>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="sticky sticky--floating sticky--stack">
+      <a class="btn btn--primary" href="05-home.html">Create account</a>
+      <a class="sticky__secondary" href="04-login.html">Already have an account? Log in</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

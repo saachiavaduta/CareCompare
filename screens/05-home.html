@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--nav">
+      <div class="home-head">
+        <div class="home-top">
+          <a class="logo logo--sm logo--inline logo--dark" href="05-home.html">
+            <span class="logo__mark"><span class="logo__icon i i-heart-pulse" aria-hidden="true"></span></span>
+            <span class="logo__name">CareCompare</span>
+          </a>
+          <a class="round-button" href="28-notifications.html" aria-label="Notifications">
+            <span class="round-button__face"><span class="i i-bell" aria-hidden="true"></span></span>
+            <span class="round-button__dot" aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="home-hello">
+          <span class="avatar" aria-hidden="true">AM</span>
+          <div class="home-hello__text">
+            <p class="small-text muted-text">Good morning</p>
+            <h1 class="heading-title">Aarav</h1>
+          </div>
+          <button class="location-pill" type="button">
+            <span class="i i--sm i-pin" aria-hidden="true"></span>Sample Nagar<span class="i i--sm i-chevron-down" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <a class="input input--icon search-link" href="06-search.html">
+          <span class="field__icon i i-search" aria-hidden="true"></span>
+          <span class="search-link__text">Search doctors, problems, hospitals</span>
+          <span class="i i-filter search-link__filter" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="banner banner--home">
+        <img class="banner__image" src="../images/hero/home-banner.jpg" alt="">
+        <div class="banner__overlay"></div>
+        <div class="banner__content banner__content--start">
+          <p class="title-text banner__title">Not sure what you need?</p>
+          <p class="small-text banner__text">Tell us your symptoms and we will suggest a specialist.</p>
+          <a class="btn btn--gold btn--compact" href="08-symptom-picker.html">
+            <span class="i i-stethoscope" aria-hidden="true"></span>Check my symptoms
+          </a>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Specialties</h2>
+          <a class="section__link" href="07-specialties.html">See all</a>
+        </div>
+        <div class="tile-grid">
+          <a class="tile" href="10-results.html">
+            <span class="icon-circle icon-circle--sm"><span class="i i-heart-pulse" aria-hidden="true"></span></span>
+            <span class="tile__title">Heart</span>
+          </a>
+          <a class="tile" href="10-results.html">
+            <span class="icon-circle icon-circle--sm"><span class="i i-skin" aria-hidden="true"></span></span>
+            <span class="tile__title">Skin</span>
+          </a>
+          <a class="tile" href="10-results.html">
+            <span class="icon-circle icon-circle--sm"><span class="i i-child" aria-hidden="true"></span></span>
+            <span class="tile__title">Child</span>
+          </a>
+          <a class="tile" href="10-results.html">
+            <span class="icon-circle icon-circle--sm"><span class="i i-bone" aria-hidden="true"></span></span>
+            <span class="tile__title">Bones</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Next visit</h2>
+        </div>
+        <a class="card" href="24-appointment-tracker.html">
+          <div class="inline-row">
+            <span class="photo photo--lg">
+              <span class="photo__initials" aria-hidden="true">AR</span>
+              <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+            </span>
+            <div class="doctor-card__info">
+              <span class="doctor-card__name">Dr. Anaya Rao</span>
+              <span class="doctor-card__meta">Cardiologist · Fri 16 Oct · 10:30 AM</span>
+              <span class="doctor-card__next"><span class="i i--sm i-pin" aria-hidden="true"></span>Sunrise Heart Clinic</span>
+            </div>
+          </div>
+          <div class="doctor-card__footer">
+            <span class="badge badge--ok">Confirmed</span>
+          </div>
+        </a>
+      </section>
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Top rated near you</h2>
+          <a class="section__link" href="10-results.html">See all</a>
+        </div>
+        <a class="doctor-card" href="11-doctor-profile.html">
+          <div class="doctor-card__top">
+            <span class="photo photo--lg">
+              <span class="photo__initials" aria-hidden="true">AR</span>
+              <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+            </span>
+            <div class="doctor-card__info">
+              <span class="doctor-card__name">Dr. Anaya Rao</span>
+              <span class="doctor-card__meta">Cardiologist · Sunrise Heart Clinic</span>
+              <span class="doctor-card__rating"><span class="i i--sm i-star" aria-hidden="true"></span><span class="doctor-card__rating-value">4.7</span>(312 reviews)</span>
+              <span class="badge badge--best">Best rated</span>
+            </div>
+          </div>
+          <div class="doctor-card__stats">
+            <div class="doctor-card__stat">
+              <span class="doctor-card__stat-top">₹800</span>
+              <span class="doctor-card__stat-label">Fee</span>
+            </div>
+            <div class="doctor-card__stat">
+              <span class="doctor-card__stat-top">10 min</span>
+              <span class="doctor-card__stat-label">Wait</span>
+            </div>
+            <div class="doctor-card__stat">
+              <span class="doctor-card__stat-top">1.2 km</span>
+              <span class="doctor-card__stat-label">Distance</span>
+            </div>
+          </div>
+        </a>
+        <a class="doctor-card" href="11-doctor-profile.html">
+          <div class="doctor-card__top">
+            <span class="photo photo--lg">
+              <span class="photo__initials" aria-hidden="true">KD</span>
+              <img class="photo__image" src="../images/doctors/desai.jpg" alt="">
+            </span>
+            <div class="doctor-card__info">
+              <span class="doctor-card__name">Dr. Kabir Desai</span>
+              <span class="doctor-card__meta">Cardiologist · Lotus Care Centre</span>
+              <span class="doctor-card__rating"><span class="i i--sm i-star" aria-hidden="true"></span><span class="doctor-card__rating-value">4.7</span>(148 reviews)</span>
+            </div>
+          </div>
+          <div class="doctor-card__stats">
+            <div class="doctor-card__stat">
+              <span class="doctor-card__stat-top">₹1000</span>
+              <span class="doctor-card__stat-label">Fee</span>
+            </div>
+            <div class="doctor-card__stat">
+              <span class="doctor-card__stat-top">15 min</span>
+              <span class="doctor-card__stat-label">Wait</span>
+            </div>
+            <div class="doctor-card__stat">
+              <span class="doctor-card__stat-top">2.5 km</span>
+              <span class="doctor-card__stat-label">Distance</span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section class="section">
+        <div class="section__head">
+          <h2 class="section__title">Saved doctors</h2>
+        </div>
+        <div class="card card--list">
+          <a class="list-row" href="11-doctor-profile.html">
+            <span class="photo photo--sm">
+              <span class="photo__initials" aria-hidden="true">AR</span>
+              <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+            </span>
+            <span class="list-row__body">
+              <span class="list-row__label">Dr. Anaya Rao</span>
+              <span class="list-row__sub">₹800 · 10 min wait</span>
+            </span>
+            <span class="i i-chevron-right list-row__chevron" aria-hidden="true"></span>
+          </a>
+          <a class="list-row" href="11-doctor-profile.html">
+            <span class="photo photo--sm">
+              <span class="photo__initials" aria-hidden="true">KD</span>
+              <img class="photo__image" src="../images/doctors/desai.jpg" alt="">
+            </span>
+            <span class="list-row__body">
+              <span class="list-row__label">Dr. Kabir Desai</span>
+              <span class="list-row__sub">₹1000 · 15 min wait</span>
+            </span>
+            <span class="i i-chevron-right list-row__chevron" aria-hidden="true"></span>
+          </a>
+          <a class="list-row" href="11-doctor-profile.html">
+            <span class="photo photo--sm">
+              <span class="photo__initials" aria-hidden="true">MI</span>
+              <img class="photo__image" src="../images/doctors/iyer.jpg" alt="">
+            </span>
+            <span class="list-row__body">
+              <span class="list-row__label">Dr. Mira Iyer</span>
+              <span class="list-row__sub">₹600 · 45 min wait</span>
+            </span>
+            <span class="i i-chevron-right list-row__chevron" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+      <div class="card card--stack">
+        <span class="icon-circle">
+          <span class="i i-copy" aria-hidden="true"></span>
+        </span>
+        <div class="stack-text">
+          <span class="title-text">Compare doctors</span>
+          <span class="small-text muted-text">Put up to 3 doctors side by side.</span>
+        </div>
+        <a class="btn btn--secondary" href="14-compare-select.html">Start comparing</a>
+      </div>
+    </main>
+
+    <nav class="nav" aria-label="Main">
+      <div class="nav__items">
+        <a class="nav__item nav__item--active" href="05-home.html" aria-current="page">
+          <span class="nav__pill"><span class="i i-home" aria-hidden="true"></span></span>Home
+        </a>
+        <a class="nav__item" href="06-search.html">
+          <span class="nav__pill"><span class="i i-search" aria-hidden="true"></span></span>Search
+        </a>
+        <span class="nav__item">
+          <span class="nav__pill"><span class="i i-calendar" aria-hidden="true"></span></span>Visits
+        </span>
+        <span class="nav__item">
+          <span class="nav__pill"><span class="i i-user" aria-hidden="true"></span></span>Profile
+        </span>
+      </div>
+    </nav>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

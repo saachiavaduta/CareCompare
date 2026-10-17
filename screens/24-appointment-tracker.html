@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your visit · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="23-appointments.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Your visit</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <div class="card card--flush">
+        <div class="card__body">
+          <div class="inline-row">
+            <span class="photo photo--lg">
+              <span class="photo__initials" aria-hidden="true">AR</span>
+              <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+            </span>
+            <div class="stack-text">
+              <span class="title-text">Dr. Anaya Rao</span>
+              <span class="caption-text muted-text">Cardiologist</span>
+            </div>
+          </div>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-calendar" aria-hidden="true"></span>
+          <span class="value-row__label">Fri 16 Oct, 10:30 AM</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-pin" aria-hidden="true"></span>
+          <span class="value-row__label">Sunrise Heart Clinic</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-user" aria-hidden="true"></span>
+          <span class="value-row__label">Aarav Mehta</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-file" aria-hidden="true"></span>
+          <span class="value-row__label">CC-1024</span>
+        </div>
+      </div>
+
+      <section class="section">
+        <h2 class="section__title">Progress</h2>
+        <div class="stepper">
+          <div class="stepper__step stepper__step--done">
+            <span class="stepper__marker"><span class="i i--sm i-check" aria-hidden="true"></span></span>
+            <div class="stepper__body">
+              <span class="stepper__title">Booked</span>
+              <span class="stepper__meta">Done · 15 Oct</span>
+            </div>
+          </div>
+          <div class="stepper__step stepper__step--done">
+            <span class="stepper__marker"><span class="i i--sm i-check" aria-hidden="true"></span></span>
+            <div class="stepper__body">
+              <span class="stepper__title">Clinic confirmed</span>
+              <span class="stepper__meta">Done · 15 Oct</span>
+            </div>
+          </div>
+          <div class="stepper__step stepper__step--current">
+            <span class="stepper__marker">3</span>
+            <div class="stepper__body">
+              <span class="stepper__title">Day of visit</span>
+              <span class="stepper__meta">Tomorrow</span>
+            </div>
+          </div>
+          <div class="stepper__step">
+            <span class="stepper__marker">4</span>
+            <div class="stepper__body">
+              <span class="stepper__title">Checked in</span>
+              <span class="stepper__meta">Next</span>
+            </div>
+          </div>
+          <div class="stepper__step">
+            <span class="stepper__marker">5</span>
+            <div class="stepper__body">
+              <span class="stepper__title">Visit complete</span>
+              <span class="stepper__meta">Next</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="card card--tinted">
+        <div class="inline-row">
+          <span class="i i--sm i-info" aria-hidden="true"></span>
+          <span class="small-text">Dr. Rao's clinic is expecting you tomorrow at 10:30 AM.</span>
+        </div>
+      </div>
+
+      <div class="tile-row">
+        <a class="tile" href="tel:+910000012345">
+          <span class="i i-phone" aria-hidden="true"></span>
+          <span class="tile__title">Call clinic</span>
+        </a>
+        <a class="tile" href="13-clinic-details.html">
+          <span class="i i-map" aria-hidden="true"></span>
+          <span class="tile__title">Directions</span>
+        </a>
+        <button type="button" class="tile">
+          <span class="i i-calendar" aria-hidden="true"></span>
+          <span class="tile__title">Reschedule</span>
+        </button>
+      </div>
+
+      <button type="button" class="cancel-link">
+        <span class="i i--sm i-close" aria-hidden="true"></span>Cancel booking
+      </button>
+
+      <a class="demo-link caption-text" href="30-doctor-new-booking.html">
+        <span class="i i--sm i-doctor" aria-hidden="true"></span>Doctor's view (demo)
+      </a>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="25-check-in.html">Check in at clinic</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

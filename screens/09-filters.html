@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filters · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky-double">
+      <header class="header">
+        <a class="round-button" href="10-results.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Filters</h1>
+        <span aria-hidden="true"></span>
+      </header>
+
+      <section class="section">
+        <div class="section__head">
+          <span class="field__label">Consultation fee</span>
+          <span class="title-text">₹500 – ₹1500</span>
+        </div>
+        <div class="range">
+          <div class="range__track">
+            <span class="range__fill"></span>
+            <span class="range__handle range__handle--min"></span>
+            <span class="range__handle range__handle--max"></span>
+          </div>
+          <div class="range__labels">
+            <span>₹500</span>
+            <span>₹1500</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <span class="field__label">Maximum wait</span>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip"><span class="chip__face">Under 15 min</span></span>
+          <span class="chip chip--active"><span class="chip__face">Under 30 min</span></span>
+          <span class="chip"><span class="chip__face">Any</span></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <span class="field__label">Distance</span>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip"><span class="chip__face">Within 2 km</span></span>
+          <span class="chip chip--active"><span class="chip__face">Within 5 km</span></span>
+          <span class="chip"><span class="chip__face">Within 10 km</span></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <span class="field__label">Language</span>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip chip--active"><span class="chip__face">Gujarati</span></span>
+          <span class="chip chip--active"><span class="chip__face">Hindi</span></span>
+          <span class="chip"><span class="chip__face">English</span></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <span class="field__label">Consultation type</span>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip chip--active"><span class="chip__face"><span class="i i--sm i-pin" aria-hidden="true"></span>In clinic</span></span>
+          <span class="chip"><span class="chip__face"><span class="i i--sm i-video" aria-hidden="true"></span>Video</span></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <span class="field__label">Minimum rating</span>
+        <div class="chip-row chip-row--wrap">
+          <span class="chip"><span class="chip__face"><span class="i i--sm i-star" aria-hidden="true"></span>4.0+</span></span>
+          <span class="chip chip--active"><span class="chip__face"><span class="i i--sm i-star" aria-hidden="true"></span>4.5+</span></span>
+        </div>
+      </section>
+
+      <div class="card card--list">
+        <div class="toggle toggle--on">
+          <span class="body-text">Available today</span>
+          <span class="toggle__switch" aria-hidden="true"></span>
+        </div>
+        <div class="toggle toggle--on">
+          <span class="body-text">Verified reviews only</span>
+          <span class="toggle__switch" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <section class="section">
+        <span class="field__label" id="sort-label">Sort by</span>
+        <div class="radio-list" role="radiogroup" aria-labelledby="sort-label">
+          <div class="radio radio--selected" role="radio" aria-checked="true">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="radio__body">
+              <span class="radio__label">Best match</span>
+              <span class="radio__sub">Fits your needs most</span>
+            </span>
+          </div>
+          <div class="radio" role="radio" aria-checked="false">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="radio__body">
+              <span class="radio__label">Lowest fees</span>
+              <span class="radio__sub">Cheapest first</span>
+            </span>
+          </div>
+          <div class="radio" role="radio" aria-checked="false">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="radio__body">
+              <span class="radio__label">Shortest wait</span>
+              <span class="radio__sub">Quickest first</span>
+            </span>
+          </div>
+          <div class="radio" role="radio" aria-checked="false">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="radio__body">
+              <span class="radio__label">Nearest</span>
+              <span class="radio__sub">Closest first</span>
+            </span>
+          </div>
+          <div class="radio" role="radio" aria-checked="false">
+            <span class="radio__dot" aria-hidden="true"></span>
+            <span class="radio__body">
+              <span class="radio__label">Highest rated</span>
+              <span class="radio__sub">Best reviews first</span>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="sticky sticky--floating sticky--stack">
+      <a class="btn btn--primary" href="10-results.html">Show doctors</a>
+      <a class="sticky__secondary" href="10-results.html">Clear all</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

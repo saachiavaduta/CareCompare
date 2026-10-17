@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cost and wait · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="10-results.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Compare doctors</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <nav class="tabs" aria-label="Comparison sections">
+        <a class="tabs__link" href="15-compare-table.html">Overview</a>
+        <a class="tabs__link tabs__link--active" href="16-compare-cost-wait.html" aria-current="page">Cost and wait</a>
+        <a class="tabs__link" href="17-why-best-match.html">Why best match</a>
+      </nav>
+
+      <h2 class="section__title">Cost and wait</h2>
+
+      <div class="card card--list">
+        <div class="cost-card__head">
+          <span class="photo photo--sm">
+            <span class="photo__initials" aria-hidden="true">AR</span>
+            <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+          </span>
+          <span class="title-text cost-card__name">Dr. Anaya Rao</span>
+          <span class="badge badge--ok">Shortest wait</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">Consultation</span>
+          <span class="value-row__value">₹800</span>
+        </div>
+        <div class="value-row value-row--best">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">Follow-up</span>
+          <span class="value-row__value">Free within 15 days</span>
+        </div>
+        <div class="value-row value-row--best">
+          <span class="i i--sm i-video" aria-hidden="true"></span>
+          <span class="value-row__label">Video call</span>
+          <span class="value-row__value">₹600</span>
+        </div>
+        <div class="value-row value-row--best value-row--total">
+          <span class="i i--sm i-wallet" aria-hidden="true"></span>
+          <span class="value-row__label">Visit + 1 follow-up</span>
+          <span class="value-row__value">₹800</span>
+        </div>
+        <div class="value-row value-row--best">
+          <span class="i i--sm i-clock" aria-hidden="true"></span>
+          <span class="value-row__label">Average wait</span>
+          <span class="value-row__value">10 min</span>
+        </div>
+        <div class="cost-bar">
+          <div class="wait-bar__track"><div class="wait-bar__fill" style="--fill: 17%"></div></div>
+        </div>
+        <div class="value-row value-row--best">
+          <span class="i i--sm i-car" aria-hidden="true"></span>
+          <span class="value-row__label">Travel time</span>
+          <span class="value-row__value">6 min</span>
+        </div>
+      </div>
+
+      <div class="card card--list">
+        <div class="cost-card__head">
+          <span class="photo photo--sm">
+            <span class="photo__initials" aria-hidden="true">MS</span>
+            <img class="photo__image" src="../images/doctors/shah.jpg" alt="">
+          </span>
+          <span class="title-text cost-card__name">Dr. Meera Shah</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">Consultation</span>
+          <span class="value-row__value">₹1200</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">Follow-up</span>
+          <span class="value-row__value">₹600</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-video" aria-hidden="true"></span>
+          <span class="value-row__label">Video call</span>
+          <span class="value-row__value">₹900</span>
+        </div>
+        <div class="value-row value-row--total">
+          <span class="i i--sm i-wallet" aria-hidden="true"></span>
+          <span class="value-row__label">Visit + 1 follow-up</span>
+          <span class="value-row__value">₹1800</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-clock" aria-hidden="true"></span>
+          <span class="value-row__label">Average wait</span>
+          <span class="value-row__value">25 min</span>
+        </div>
+        <div class="cost-bar">
+          <div class="wait-bar__track"><div class="wait-bar__fill" style="--fill: 42%"></div></div>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-car" aria-hidden="true"></span>
+          <span class="value-row__label">Travel time</span>
+          <span class="value-row__value">12 min</span>
+        </div>
+      </div>
+
+      <div class="card card--list">
+        <div class="cost-card__head">
+          <span class="photo photo--sm">
+            <span class="photo__initials" aria-hidden="true">MI</span>
+            <img class="photo__image" src="../images/doctors/iyer.jpg" alt="">
+          </span>
+          <span class="title-text cost-card__name">Dr. Mira Iyer</span>
+          <span class="badge badge--ok">Lowest fees</span>
+        </div>
+        <div class="value-row value-row--best">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">Consultation</span>
+          <span class="value-row__value">₹600</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-rupee" aria-hidden="true"></span>
+          <span class="value-row__label">Follow-up</span>
+          <span class="value-row__value">₹300</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-video" aria-hidden="true"></span>
+          <span class="value-row__label">Video call</span>
+          <span class="value-row__value">Not offered</span>
+        </div>
+        <div class="value-row value-row--total">
+          <span class="i i--sm i-wallet" aria-hidden="true"></span>
+          <span class="value-row__label">Visit + 1 follow-up</span>
+          <span class="value-row__value">₹900</span>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-clock" aria-hidden="true"></span>
+          <span class="value-row__label">Average wait</span>
+          <span class="value-row__value">45 min</span>
+        </div>
+        <div class="cost-bar">
+          <div class="wait-bar__track"><div class="wait-bar__fill" style="--fill: 75%"></div></div>
+        </div>
+        <div class="value-row">
+          <span class="i i--sm i-car" aria-hidden="true"></span>
+          <span class="value-row__label">Travel time</span>
+          <span class="value-row__value">18 min</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="18-slot-picker.html">Book Dr. Anaya Rao</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

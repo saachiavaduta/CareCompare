@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit summary · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="23-appointments.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Visit summary</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <div class="centre-row">
+        <span class="icon-circle icon-circle--hero"><span class="i i--lg i-check-circle" aria-hidden="true"></span></span>
+      </div>
+
+      <div class="stack-text stack-text--centre">
+        <h2 class="display-title">Visit complete</h2>
+        <div class="inline-row">
+          <span class="photo photo--xs">
+            <span class="photo__initials" aria-hidden="true">AR</span>
+            <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+          </span>
+          <p class="body-text muted-text">Seen by Dr. Anaya Rao at 10:42 AM.</p>
+        </div>
+      </div>
+
+      <div class="card card--stack">
+        <div class="inline-row">
+          <span class="i i--sm i-file" aria-hidden="true"></span>
+          <div class="stack-text">
+            <span class="title-text">Care summary</span>
+            <span class="body-text">Rest for 2 days. Avoid heavy exercise. Come back if the pain increases.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card--list">
+        <div class="card__body">
+          <span class="title-text">Medicines</span>
+        </div>
+        <div class="list-row">
+          <span class="icon-circle icon-circle--sm"><span class="i i--sm i-pill" aria-hidden="true"></span></span>
+          <div class="list-row__body">
+            <span class="list-row__label">Medicine A</span>
+            <span class="list-row__sub">1 tablet · morning · 7 days</span>
+          </div>
+        </div>
+        <div class="list-row">
+          <span class="icon-circle icon-circle--sm"><span class="i i--sm i-pill" aria-hidden="true"></span></span>
+          <div class="list-row__body">
+            <span class="list-row__label">Medicine B</span>
+            <span class="list-row__sub">1 tablet · night · 7 days</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card--flush">
+        <div class="card__body">
+          <span class="title-text">Fees</span>
+        </div>
+        <div class="value-row">
+          <span class="value-row__label">Consultation</span>
+          <span class="value-row__value">₹800</span>
+        </div>
+        <div class="value-row">
+          <span class="value-row__label">Paid at clinic</span>
+          <span class="badge badge--ok">Paid</span>
+        </div>
+      </div>
+
+      <div class="card card--stack">
+        <span class="title-text">Next reminder</span>
+        <div class="inline-row">
+          <span class="icon-circle icon-circle--sm"><span class="i i--sm i-calendar" aria-hidden="true"></span></span>
+          <div class="stack-text">
+            <span class="body-text">Follow-up Fri 30 Oct, 5:00 PM</span>
+            <span class="caption-text muted-text">Free with Dr. Rao</span>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn--secondary">
+        <span class="i i-file" aria-hidden="true"></span>Download summary
+      </button>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="27-rate-review.html">Rate your visit</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

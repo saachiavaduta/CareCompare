@@ -1,0 +1,77 @@
+/* Design tokens: colours, type, radius, shadow, spacing, shell */
+:root {
+  /* Brand colours */
+  --forest: #123F36;
+  --green: #2A6B5C;
+  --gold: #C49A45;
+  --sand: #E8DCC4;
+  --cream: #FBF8F1;
+  --white: #FFFFFF;
+  --ink-soft: #5B6F69;
+  --line: #DDD2B8;
+  --green-soft: #DCEAE5;
+  --gold-soft: #F6ECD3;
+  --gold-dark: #8A6A22;
+  --red: #B3423A;
+  --red-soft: #F7DEDB;
+
+  /* Gradients */
+  --gradient-brand: linear-gradient(160deg, var(--green), var(--forest));
+  --gradient-overlay: linear-gradient(180deg, rgba(18, 63, 54, .1), rgba(18, 63, 54, .75));
+
+  /* Shell colours */
+  --page-bg: #E9E4D6;
+  --phone-frame: #0B2A24;
+  --black: #000000;
+
+  /* Fonts */
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* Type scale */
+  --text-display-size: 30px;
+  --text-display-line: 36px;
+  --text-heading-size: 24px;
+  --text-heading-line: 30px;
+  --text-title-size: 17px;
+  --text-title-line: 24px;
+  --text-body-size: 15px;
+  --text-body-line: 22px;
+  --text-small-size: 13px;
+  --text-small-line: 18px;
+  --text-caption-size: 12px;
+  --text-caption-line: 16px;
+
+  /* Radius */
+  --radius-field: 12px;
+  --radius-card: 16px;
+  --radius-banner: 20px;
+  --radius-sheet: 28px;
+  --radius-pill: 999px;
+
+  /* Shadow */
+  --shadow-1: 0 1px 2px rgba(18, 63, 54, .06), 0 4px 12px rgba(18, 63, 54, .06);
+  --shadow-2: 0 8px 24px rgba(18, 63, 54, .14);
+
+  /* Spacing (8-pt grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+
+  /* Sizes */
+  --touch-min: 48px;
+  --button-h: 56px;
+  --button-secondary-h: 48px;
+  --input-h: 52px;
+  --header-h: 56px;
+  --nav-h: 84px;
+  --phone-w: 390px;
+  --phone-h: 844px;
+  --statusbar-h: 48px;
+  --screen-pad: 20px;
+}

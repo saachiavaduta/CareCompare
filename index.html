@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareCompare screens</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    body { padding: var(--space-6); }
+    .index { max-width: 720px; margin: 0 auto; }
+    .index h1 { font-family: var(--font-display); font-size: var(--text-display-size); line-height: var(--text-display-line); font-weight: 400; margin-bottom: var(--space-2); }
+    .index__intro { color: var(--ink-soft); margin-bottom: var(--space-7); }
+    .index__group { margin-bottom: var(--space-6); }
+    .index__group h2 { font-size: var(--text-caption-size); line-height: var(--text-caption-line); text-transform: uppercase; letter-spacing: .08em; color: var(--gold-dark); margin-bottom: var(--space-2); }
+    .index__list { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-card); box-shadow: var(--shadow-1); }
+    .index__list a { display: flex; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) var(--space-4); border-top: 1px solid var(--line); min-height: var(--touch-min); align-items: center; }
+    .index__list a:first-child { border-top: 0; }
+    .index__list a:hover { background: var(--green-soft); }
+    .index__num { color: var(--ink-soft); font-size: var(--text-small-size); min-width: 28px; }
+    .index__name { flex: 1; font-weight: 500; }
+    .index__file { color: var(--ink-soft); font-size: var(--text-caption-size); }
+  </style>
+</head>
+<body>
+  <main class="index">
+    <h1>CareCompare screens</h1>
+    <p class="index__intro">Open any screen to preview it. Screens are listed in the order a patient moves through the app.</p>
+
+    <section class="index__group">
+      <h2>Start</h2>
+      <nav class="index__list">
+        <a href="screens/01-splash.html"><span class="index__num">01</span><span class="index__name">Splash</span><span class="index__file">01-splash.html</span></a>
+        <a href="screens/02-welcome.html"><span class="index__num">02</span><span class="index__name">Welcome</span><span class="index__file">02-welcome.html</span></a>
+        <a href="screens/03-signup.html"><span class="index__num">03</span><span class="index__name">Create account</span><span class="index__file">03-signup.html</span></a>
+        <a href="screens/04-login.html"><span class="index__num">04</span><span class="index__name">Log in</span><span class="index__file">04-login.html</span></a>
+      </nav>
+    </section>
+
+    <section class="index__group">
+      <h2>Find a doctor</h2>
+      <nav class="index__list">
+        <a href="screens/05-home.html"><span class="index__num">05</span><span class="index__name">Home</span><span class="index__file">05-home.html</span></a>
+        <a href="screens/06-search.html"><span class="index__num">06</span><span class="index__name">Search</span><span class="index__file">06-search.html</span></a>
+        <a href="screens/07-specialties.html"><span class="index__num">07</span><span class="index__name">Specialties</span><span class="index__file">07-specialties.html</span></a>
+        <a href="screens/08-symptom-picker.html"><span class="index__num">08</span><span class="index__name">Check symptoms</span><span class="index__file">08-symptom-picker.html</span></a>
+        <a href="screens/09-filters.html"><span class="index__num">09</span><span class="index__name">Filters</span><span class="index__file">09-filters.html</span></a>
+        <a href="screens/10-results.html"><span class="index__num">10</span><span class="index__name">Cardiologists</span><span class="index__file">10-results.html</span></a>
+      </nav>
+    </section>
+
+    <section class="index__group">
+      <h2>Doctor and clinic</h2>
+      <nav class="index__list">
+        <a href="screens/11-doctor-profile.html"><span class="index__num">11</span><span class="index__name">Doctor profile</span><span class="index__file">11-doctor-profile.html</span></a>
+        <a href="screens/12-doctor-reviews.html"><span class="index__num">12</span><span class="index__name">Doctor reviews</span><span class="index__file">12-doctor-reviews.html</span></a>
+        <a href="screens/13-clinic-details.html"><span class="index__num">13</span><span class="index__name">Clinic details</span><span class="index__file">13-clinic-details.html</span></a>
+      </nav>
+    </section>
+
+    <section class="index__group">
+      <h2>Compare</h2>
+      <nav class="index__list">
+        <a href="screens/14-compare-select.html"><span class="index__num">14</span><span class="index__name">Choose doctors</span><span class="index__file">14-compare-select.html</span></a>
+        <a href="screens/15-compare-table.html"><span class="index__num">15</span><span class="index__name">Compare doctors</span><span class="index__file">15-compare-table.html</span></a>
+        <a href="screens/16-compare-cost-wait.html"><span class="index__num">16</span><span class="index__name">Cost and wait</span><span class="index__file">16-compare-cost-wait.html</span></a>
+        <a href="screens/17-why-best-match.html"><span class="index__num">17</span><span class="index__name">Why best match</span><span class="index__file">17-why-best-match.html</span></a>
+      </nav>
+    </section>
+
+    <section class="index__group">
+      <h2>Book</h2>
+      <nav class="index__list">
+        <a href="screens/18-slot-picker.html"><span class="index__num">18</span><span class="index__name">Pick a time</span><span class="index__file">18-slot-picker.html</span></a>
+        <a href="screens/19-patient-details.html"><span class="index__num">19</span><span class="index__name">Patient details</span><span class="index__file">19-patient-details.html</span></a>
+        <a href="screens/20-payment.html"><span class="index__num">20</span><span class="index__name">Payment</span><span class="index__file">20-payment.html</span></a>
+        <a href="screens/21-booking-review.html"><span class="index__num">21</span><span class="index__name">Review booking</span><span class="index__file">21-booking-review.html</span></a>
+        <a href="screens/22-booking-success.html"><span class="index__num">22</span><span class="index__name">Booked</span><span class="index__file">22-booking-success.html</span></a>
+      </nav>
+    </section>
+
+    <section class="index__group">
+      <h2>Visits</h2>
+      <nav class="index__list">
+        <a href="screens/23-appointments.html"><span class="index__num">23</span><span class="index__name">Visits</span><span class="index__file">23-appointments.html</span></a>
+        <a href="screens/24-appointment-tracker.html"><span class="index__num">24</span><span class="index__name">Your visit</span><span class="index__file">24-appointment-tracker.html</span></a>
+        <a href="screens/25-check-in.html"><span class="index__num">25</span><span class="index__name">Check in</span><span class="index__file">25-check-in.html</span></a>
+        <a href="screens/26-visit-summary.html"><span class="index__num">26</span><span class="index__name">Visit summary</span><span class="index__file">26-visit-summary.html</span></a>
+        <a href="screens/27-rate-review.html"><span class="index__num">27</span><span class="index__name">Rate your visit</span><span class="index__file">27-rate-review.html</span></a>
+      </nav>
+    </section>
+
+    <section class="index__group">
+      <h2>Account</h2>
+      <nav class="index__list">
+        <a href="screens/28-notifications.html"><span class="index__num">28</span><span class="index__name">Notifications</span><span class="index__file">28-notifications.html</span></a>
+        <a href="screens/29-profile.html"><span class="index__num">29</span><span class="index__name">Profile</span><span class="index__file">29-profile.html</span></a>
+      </nav>
+    </section>
+
+    <section class="index__group">
+      <h2>Doctor app</h2>
+      <nav class="index__list">
+        <a href="screens/30-doctor-new-booking.html"><span class="index__num">30</span><span class="index__name">New booking request</span><span class="index__file">30-doctor-new-booking.html</span></a>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>

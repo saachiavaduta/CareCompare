@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compare doctors · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky-double">
+      <header class="header">
+        <a class="round-button" href="10-results.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Compare doctors</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <nav class="tabs" aria-label="Comparison sections">
+        <a class="tabs__link tabs__link--active" href="15-compare-table.html" aria-current="page">Overview</a>
+        <a class="tabs__link" href="16-compare-cost-wait.html">Cost and wait</a>
+        <a class="tabs__link" href="17-why-best-match.html">Why best match</a>
+      </nav>
+
+      <div class="card card--gold card--stack">
+        <p class="title-text"><span class="i i--sm i-star" aria-hidden="true"></span> Best match: Dr. Anaya Rao</p>
+        <p class="small-text">Closest to you, shortest wait and highest rated, with a slot today.</p>
+        <p class="caption-text muted-text">Dr. Iyer has the lowest fees. Dr. Shah has the most experience.</p>
+      </div>
+
+      <div class="card compare-card">
+        <table class="compare">
+          <thead>
+            <tr>
+              <th class="compare__label"></th>
+              <th>
+                <a class="compare__head-photo" href="11-doctor-profile.html">
+                  <span class="photo photo--sm">
+                    <span class="photo__initials" aria-hidden="true">AR</span>
+                    <img class="photo__image" src="../images/doctors/rao.jpg" alt="">
+                  </span>
+                  Rao
+                </a>
+              </th>
+              <th>
+                <a class="compare__head-photo" href="11-doctor-profile.html">
+                  <span class="photo photo--sm">
+                    <span class="photo__initials" aria-hidden="true">MS</span>
+                    <img class="photo__image" src="../images/doctors/shah.jpg" alt="">
+                  </span>
+                  Shah
+                </a>
+              </th>
+              <th>
+                <a class="compare__head-photo" href="11-doctor-profile.html">
+                  <span class="photo photo--sm">
+                    <span class="photo__initials" aria-hidden="true">MI</span>
+                    <img class="photo__image" src="../images/doctors/iyer.jpg" alt="">
+                  </span>
+                  Iyer
+                </a>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-rupee" aria-hidden="true"></span>Fees</span></th>
+              <td>₹800</td>
+              <td>₹1200</td>
+              <td class="compare__cell--best">₹600</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-clock" aria-hidden="true"></span>Wait</span></th>
+              <td class="compare__cell--best">10 min</td>
+              <td>25 min</td>
+              <td>45 min</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-pin" aria-hidden="true"></span>Distance</span></th>
+              <td class="compare__cell--best">1.2 km</td>
+              <td>2.8 km</td>
+              <td>4.1 km</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-doctor" aria-hidden="true"></span>Experience</span></th>
+              <td>14 yrs</td>
+              <td class="compare__cell--best">18 yrs</td>
+              <td>6 yrs</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-star" aria-hidden="true"></span>Rating</span></th>
+              <td class="compare__cell--best">4.7</td>
+              <td>4.6</td>
+              <td>4.3</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-shield-check" aria-hidden="true"></span>Reviews</span></th>
+              <td>312</td>
+              <td class="compare__cell--best">421</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-globe" aria-hidden="true"></span>Languages</span></th>
+              <td class="compare__cell--best">Guj, Hin, Eng</td>
+              <td>Hin, Eng</td>
+              <td>Eng, Hin</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-video" aria-hidden="true"></span>Visit type</span></th>
+              <td>Clinic + Video</td>
+              <td>Clinic + Video</td>
+              <td>Clinic only</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="compare__label-content"><span class="i i--sm i-calendar" aria-hidden="true"></span>Next slot</span></th>
+              <td class="compare__cell--best">Today 4:30 PM</td>
+              <td>Tomorrow 10 AM</td>
+              <td>Tomorrow 12 PM</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="caption-text muted-text compare-card__note"><span class="i i--sm i-star" aria-hidden="true"></span> Highlighted = best in that row</p>
+      </div>
+    </main>
+
+    <div class="sticky sticky--floating sticky--stack">
+      <a class="btn btn--primary" href="18-slot-picker.html">Book Dr. Anaya Rao</a>
+      <a class="sticky__secondary" href="14-compare-select.html">Add or remove doctors</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

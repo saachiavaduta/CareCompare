@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Review booking · CareCompare</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='7' fill='%23123F36'/%3E%3Cg fill='none' stroke='%23C49A45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 19s-6.5-4-8-8C3.1 8.3 4.9 6 7.5 6c1.7 0 3 1 4.5 2.6C13.5 7 14.8 6 16.5 6 19.1 6 20.9 8.3 20 11c-1.5 4-8 8-8 8z'/%3E%3Cpath d='M4 12.5h3.5l1.5-2.5 2.5 5 1.5-2.5H20'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/icons.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/screens.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="statusbar" aria-hidden="true">
+      <span>9:41</span>
+      <span class="statusbar__island"></span>
+      <span class="statusbar__icons">
+        <span class="statusbar__signal"><span></span><span></span><span></span><span></span></span>
+        <span class="statusbar__wifi"></span>
+        <span class="statusbar__battery"></span>
+      </span>
+    </div>
+
+    <main class="content content--sticky">
+      <header class="header">
+        <a class="round-button" href="20-payment.html" aria-label="Back">
+          <span class="round-button__face"><span class="i i-arrow-left" aria-hidden="true"></span></span>
+        </a>
+        <h1 class="header__title">Review booking</h1>
+        <span class="round-button" aria-hidden="true"></span>
+      </header>
+
+      <div class="card card--list">
+        <div class="list-row">
+          <span class="icon-circle"><span class="i i-doctor" aria-hidden="true"></span></span>
+          <span class="list-row__body">
+            <span class="caption-text muted-text">Doctor</span>
+            <span class="body-text">Dr. Anaya Rao, Cardiologist</span>
+          </span>
+          <a class="section__link" href="11-doctor-profile.html">Edit</a>
+        </div>
+        <div class="list-row">
+          <span class="icon-circle"><span class="i i-calendar" aria-hidden="true"></span></span>
+          <span class="list-row__body">
+            <span class="caption-text muted-text">Date and time</span>
+            <span class="body-text">Fri 16 Oct, 10:30 AM</span>
+          </span>
+          <a class="section__link" href="18-slot-picker.html">Edit</a>
+        </div>
+        <div class="list-row">
+          <span class="icon-circle"><span class="i i-pin" aria-hidden="true"></span></span>
+          <span class="list-row__body">
+            <span class="caption-text muted-text">Place</span>
+            <span class="body-text">Sunrise Heart Clinic, In clinic</span>
+          </span>
+        </div>
+        <div class="list-row">
+          <span class="icon-circle"><span class="i i-user" aria-hidden="true"></span></span>
+          <span class="list-row__body">
+            <span class="caption-text muted-text">Patient</span>
+            <span class="body-text">Aarav Mehta</span>
+          </span>
+          <a class="section__link" href="19-patient-details.html">Edit</a>
+        </div>
+        <div class="list-row">
+          <span class="icon-circle"><span class="i i-heart-pulse" aria-hidden="true"></span></span>
+          <span class="list-row__body">
+            <span class="caption-text muted-text">Problem</span>
+            <span class="body-text">Chest pain, breathlessness</span>
+          </span>
+        </div>
+        <div class="list-row">
+          <span class="icon-circle"><span class="i i-wallet" aria-hidden="true"></span></span>
+          <span class="list-row__body">
+            <span class="caption-text muted-text">Payment</span>
+            <span class="body-text">Pay at clinic · ₹800</span>
+          </span>
+          <a class="section__link" href="20-payment.html">Edit</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="inline-row">
+          <span class="i i--sm i-info" aria-hidden="true"></span>
+          <span class="small-text">Free cancellation up to 2 hours before your visit.</span>
+        </div>
+      </div>
+
+      <span class="check check--checked">
+        <span class="check__box"><span class="i i-check" aria-hidden="true"></span></span>
+        <span class="check__label">I understand the cancellation policy</span>
+      </span>
+    </main>
+
+    <div class="sticky sticky--floating">
+      <a class="btn btn--primary" href="22-booking-success.html">Confirm booking</a>
+    </div>
+
+    <span class="home-indicator" aria-hidden="true"></span>
+  </div>
+</body>
+</html>

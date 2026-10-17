@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="180" viewBox="0 0 350 180" role="img" aria-label="Map showing Sunrise Heart Clinic near Sample Nagar">
+  <rect width="350" height="180" fill="#FBF8F1"/>
+  <rect x="18" y="16" width="62" height="46" rx="6" fill="#E8DCC4"/>
+  <rect x="92" y="16" width="44" height="46" rx="6" fill="#E8DCC4"/>
+  <rect x="18" y="116" width="50" height="48" rx="6" fill="#E8DCC4"/>
+  <rect x="210" y="16" width="56" height="34" rx="6" fill="#E8DCC4"/>
+  <rect x="280" y="16" width="52" height="34" rx="6" fill="#E8DCC4"/>
+  <rect x="216" y="120" width="116" height="44" rx="6" fill="#E8DCC4"/>
+  <path d="M0 96 C60 84 96 110 150 98 S262 80 350 104 L350 120 C270 102 200 126 140 116 S50 104 0 118 Z" fill="#BFDCD4"/>
+  <rect x="112" y="124" width="84" height="44" rx="10" fill="#DCEAE5"/>
+  <circle cx="154" cy="146" r="8" fill="#2A6B5C" opacity="0.35"/>
+  <circle cx="134" cy="136" r="4" fill="#2A6B5C" opacity="0.35"/>
+  <circle cx="176" cy="136" r="4" fill="#2A6B5C" opacity="0.35"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 64 H350"/>
+    <path d="M88 0 V180"/>
+    <path d="M190 0 L168 180"/>
+    <path d="M280 0 V180"/>
+  </g>
+  <g fill="none" stroke="#DDD2B8" stroke-width="1">
+    <path d="M0 57.5 H350 M0 70.5 H350"/>
+    <path d="M84.5 0 V180 M91.5 0 V180"/>
+  </g>
+  <path d="M236 88c-12.5 0-22.5 9.9-22.5 22.1 0 16.6 22.5 37.9 22.5 37.9s22.5-21.3 22.5-37.9C258.5 97.9 248.5 88 236 88z" fill="#2A6B5C"/>
+  <circle cx="236" cy="110" r="16" fill="none" stroke="#C49A45" stroke-width="4"/>
+  <circle cx="236" cy="110" r="7" fill="#FBF8F1"/>
+</svg>
