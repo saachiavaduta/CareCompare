@@ -425,7 +425,7 @@
   align-items: center;
   gap: var(--space-3);
   min-height: 72px;
-  padding: var(--space-3) var(--screen-pad) var(--space-3) var(--space-4);
+  padding: var(--space-3) var(--space-4);
   color: var(--forest);
 }
 
@@ -444,6 +444,7 @@
   font-size: var(--text-body-size);
   line-height: var(--text-body-line);
   font-weight: 600;
+  overflow-wrap: anywhere;
 }
 
 .list-row__sub {
@@ -486,6 +487,7 @@
   font-size: var(--text-title-size);
   line-height: var(--text-title-line);
   font-weight: 600;
+  overflow-wrap: anywhere;
 }
 
 .doctor-card__meta,
@@ -529,7 +531,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
-  padding: var(--space-2);
+  padding: var(--space-3) var(--space-2);
   background: var(--sand);
   border-radius: var(--radius-field);
 }
@@ -949,7 +951,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 2px;
+  gap: var(--space-1);
   min-width: 0;
 }
 

@@ -1,4 +1,4 @@
-CareCompare image files
+DocCompare image files
 =======================
 
 Vector files (drawn, already in this folder)

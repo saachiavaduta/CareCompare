@@ -21,8 +21,6 @@
 
   /* Shell colours */
   --page-bg: #E9E4D6;
-  --phone-frame: #0B2A24;
-  --black: #000000;
 
   /* Fonts */
   --font-display: 'DM Serif Display', Georgia, serif;
@@ -70,8 +68,8 @@
   --input-h: 52px;
   --header-h: 56px;
   --nav-h: 84px;
-  --phone-w: 390px;
-  --phone-h: 844px;
+  --phone-w: 393px;
+  --phone-h: 852px;
   --statusbar-h: 48px;
   --screen-pad: 20px;
 }

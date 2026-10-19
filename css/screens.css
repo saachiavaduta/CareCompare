@@ -1,15 +1,11 @@
 /* ---------- Phone shell ---------- */
 .phone {
   position: relative;
-  box-sizing: content-box;
   width: var(--phone-w);
   height: var(--phone-h);
-  margin: 24px auto;
+  margin: 0 auto;
   overflow: hidden;
   background: var(--cream);
-  border: 10px solid var(--phone-frame);
-  border-radius: 48px;
-  box-shadow: var(--shadow-2);
 }
 
 /* ---------- Status bar ---------- */
@@ -27,17 +23,6 @@
   color: var(--forest);
   font-size: 15px;
   font-weight: 600;
-}
-
-.statusbar__island {
-  position: absolute;
-  top: 9px;
-  left: 50%;
-  width: 110px;
-  height: 30px;
-  transform: translateX(-50%);
-  border-radius: var(--radius-pill);
-  background: var(--black);
 }
 
 .statusbar__icons {

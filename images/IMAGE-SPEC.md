@@ -1,6 +1,6 @@
-# CareCompare image spec
+# DocCompare image spec
 
-Every image the screens need, with size, content and where it is used. Paths are relative to `carecompare/images/`.
+Every image the screens need, with size, content and where it is used. Paths are relative to `doccompare/images/`.
 
 **Status:** no JPG photos exist yet. Only the three SVG files in the last section are present. Until a photo exists, the browser shows the fallback: a green-to-forest background, with initials for doctor photos.
 
